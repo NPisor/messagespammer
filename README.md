@@ -7,9 +7,13 @@ Automatically spams Facebook messenger user with text file line by line, as desi
 Inspired by user HenryAlbu's Shrek spam bot
 
 
-#Requirements:
+# Requirements:
 
 Web driver via Selenium - used to automate web page navigation
    -Chromedriver necessary (https://chromedriver.storage.googleapis.com/index.html)
 
 Settings - keep local login info separate of application
+
+Time - necessary for sleep function to allow page elements to load
+
+Keys via Selenium - allow user to send keys to Selenium driven browser
